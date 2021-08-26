@@ -1,0 +1,600 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  font-family: Arial,Helvetica;
+  margin: 0;
+  padding: 0;
+	
+}
+
+ul,
+ol,
+dl {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a img {
+  border: none;
+}
+
+a:link {
+  color: #414958;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4E5869;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #FF0004;
+  cursor: pointer;
+}
+
+
+.topdiv {
+	width: 97.5%; height: 20px; background-color: #004361; color: #d4d5d6; padding: 0.5%; padding-left: 2%;
+	
+}
+.bmaindiv{
+	
+	width: 96%; height: 600px; padding: 2%; padding-top:4%; padding-bottom: 4%;
+	background: rgb(0,82,116);
+background: linear-gradient(0deg, rgba(0,82,116,1) 0%, rgba(0,17,33,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.leftdiv {
+	width: 63.5%;
+	height: 100%;
+	 float: left;
+	
+
+}
+.rightdiv {
+	width: 32.5%;
+	height: 100%;
+	float: right;
+
+}
+
+
+.Ldivtop {
+	width: 100%;
+	height: 31%;
+	margin-bottom: 4%;
+	background-image: url(../pic/board.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+.Ldivbottom {
+	width: 100%;
+	height: 63%;
+	background-image: url(../pic/succerfield.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position:bottom;
+}
+.Rdivtop{
+	width: 100%; height: 15.5%;  margin-bottom: 11%; border-top-right-radius: 10px;border-top-left-radius: 10px;
+	background: rgb(222,223,224);
+background: linear-gradient(0deg, rgba(222,223,224,1) 0%, rgba(91,98,102,1) 100%, rgba(0,212,255,1) 100%);
+}
+.Rdivbottom{
+	width: 100%; height: 7%; margin-bottom: 3%; 
+}
+
+.RDBright-left {
+	width: 30%; height: 88%; float: right; background-color:#dedfe0; text-align: center; font-size: 20px; padding-top: 1%;
+}
+.RDBcenter {
+	width: 40%; height: 88%; float: right; background-color:#c2c2c2; text-align: center; padding-top: 1%; color: #00607e;
+}
+
+.RDTdiv {
+	
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.imgflog {
+	margin-top: 7%; margin-left: 36%
+}
+
+
+
+
+
+
+.LDTteamnameR {
+	width: 15%; height: 20%; margin-top:5%; margin-right: 9.5%; float: right; text-align: center; font-size: 22px; line-height: 22px;
+}
+.LDTteamnameL {
+	width: 15%; height: 20%; margin-top:5%; margin-left: 9.5%; float: left; text-align: center; font-size: 22px; line-height: 22px;
+}
+
+
+.LDTcenter {
+	width: 20%; height: 20%; margin-top:1%; margin-right: 6; float: right; text-align: center; font-size: 18px; line-height: 22px;
+}
+.LDTCtimeset {
+		  font-size: 18px; line-height: 20px;
+}
+
+
+.LDTnumberright {
+	width: 10%; height: 20%; margin-top:5.5%; margin-right: 6%; float: right; text-align: center; font-size: 25px; line-height: 22px; color: #ffffff;
+}
+
+.LDTnumberleft {
+	width: 8%; height: 20%; margin-top:5.5%; float: right; text-align: center; font-size: 25px; line-height: 22px; color: #ffffff;
+}
+.timee {
+	margin-top: 12%
+}
+
+
+@media only screen and (max-width:1700px) {
+
+ .bmaindiv{
+	
+	 height: 490px; 
+}
+}
+
+
+
+@media only screen and (max-width:1550px) {
+
+ .bmaindiv{
+	
+	 height: 460px; 
+}
+}
+
+
+
+
+@media only screen and (max-width:1400px) {
+
+ .bmaindiv{
+	
+	 height: 430px; 
+}
+}
+
+
+
+@media only screen and (max-width:1250px) {
+
+ .bmaindiv{
+	
+	 height: 380px; 
+}
+}
+
+
+@media only screen and (max-width:1100px) {
+
+ .bmaindiv{
+	
+	 height: 360px; 
+}
+
+	
+	.imgflog {
+	 width: 30%
+}
+
+	.RDBright-left {
+	height: 100%; float: right;  font-size: 20px; padding-top: 0;
+}
+.RDBcenter {
+	 height: 100%; padding-top: 0;
+}
+	
+	.LDTteamnameR {
+	 font-size: 19px;margin-top:4%;
+}
+	
+	.LDTteamnameL {
+	 font-size: 19px;margin-top:4%;
+}
+	.LDTCtimeset {
+		  font-size: 16px; 
+}
+.LDTcenter {
+	 margin-right: 0%;
+}	
+	.timee {
+	margin-top: 8%
+}
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+ .bmaindiv{
+	
+	 height: 315px; 
+}
+	
+	
+	
+	
+	.LDTteamnameR {
+	 font-size: 17px; line-height: 20px;
+}
+.LDTteamnameL {
+	 font-size: 17px; line-height: 20px;
+}
+	
+.LDTnumberright {
+	 margin-top:4.5%; margin-right: 7%;  font-size: 23px; 
+}
+
+.LDTnumberleft {
+	margin-right: 1%;  margin-top:4.5%;  font-size: 23px; 
+}	
+	
+.LDTcenter {
+	 margin-right: -1%;
+}	
+	.timee {
+	margin-top: 4%
+}	
+
+}
+
+
+@media only screen and (max-width:900px) {
+
+ .bmaindiv{
+	
+	 height: 280px; 
+}
+.imgflog {
+	margin-top: 5%; margin-left: 32%; width: 40%
+}
+
+	
+	.RDBright-left {
+	font-size: 17px; 
+}
+	
+	.RDBcenter {
+	font-size: 14px; 
+}
+	
+	
+	
+	.LDTteamnameR {
+	 line-height: 16px;
+}
+	.LDTteamnameL {
+	 line-height: 16px;
+}
+		.LDTnumberright {
+	  margin-right: 6%;  
+}
+
+.LDTnumberleft {
+	margin-right: 1%;   
+}	
+	.timee {
+	margin-top: 0%
+}		
+}
+
+
+@media only screen and (max-width:800px) {
+
+ .bmaindiv{
+	
+	 height: 240px; 
+}
+	
+	
+	
+.LDTteamnameR {
+	 font-size: 15px; margin-right: 8%; margin-top: 4%;
+}
+	
+	.LDTteamnameL {
+	 font-size: 15px; margin-left: 8%; margin-top: 4%;
+}
+	.LDTcenter {
+	 margin-right: 0%; 
+}	
+	.LDTCtimeset {
+		  font-size: 14px; 
+}
+		.LDTnumberright {
+	  margin-right: 7%; font-size: 17px;  
+}
+
+.LDTnumberleft {
+	margin-right: 0%;   font-size: 17px; 
+}	
+		.timee {
+	margin-top: 1%
+}	
+
+}
+
+@media only screen and (max-width:700px) {
+
+ 
+.Ldivtop {
+	background-image: url(../pic/boardmobile.png)
+
+}
+	
+	.bmaindiv{
+	
+	 height: 220px; 
+}
+	
+	
+	
+	
+	.LDTteamnameR {
+	 font-size: 14px; 
+}
+		
+	.LDTteamnameL {
+	 font-size: 14px; 
+}
+.LDTCtimeset {
+		  font-size: 13px; 
+}
+	.LDTcenter {
+	 margin-right: 2%; 
+}	
+	
+	.LDTnumberright {
+	 margin-top:5.5%; margin-right: 5%;  font-size: 18px; 
+}
+
+.LDTnumberleft {
+	margin-right: 3%;  margin-top:5.5%;  font-size: 18px; 
+}	
+}
+
+
+
+
+@media only screen and (max-width:650px) {
+
+ 
+.Ldivtop {
+	background-image: url(../pic/boardmobile.png)
+
+}
+	
+	.bmaindiv{
+	
+	 height: 210px; 
+}
+	
+	
+	
+	
+	.LDTteamnameR {
+	 font-size: 14px; 
+}
+		
+	.LDTteamnameL {
+	 font-size: 14px; 
+}
+.LDTCtimeset {
+		  font-size: 13px; 
+}
+	.LDTcenter {
+	 margin-right: 2%; 
+}	
+	
+	.LDTnumberright {
+	 margin-top:5.5%; margin-right: 5%;  font-size: 18px; 
+}
+
+.LDTnumberleft {
+	margin-right: 3%;  margin-top:5.5%;  font-size: 18px; 
+}	
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+ .bmaindiv{
+	
+	width: 96%; height: 850px; background-color: #6192AA; padding: 2%;
+}
+
+.leftdiv {
+	width: 100%;
+	height: 35%;
+	  float: left;
+	
+
+}
+.rightdiv {
+	width: 100%;
+	height: 65%;
+	 float: right;
+	margin-top: 55px;
+
+}
+	
+	
+	.Ldivtop {
+	margin-top: 25px;
+
+}
+	
+	
+	.topdiv {
+	padding-top: 3%;
+		padding-bottom: 3%;
+		
+
+}
+	
+
+	
+	.Rdivtop{
+	 height: 13.5%;  margin-bottom: 5%; 
+}
+	
+	
+	.imgflog {
+	margin-top: 7%; margin-left: 35%; width: 30%
+}
+	
+	
+	.RDBright-left {
+	 height: 88%; font-size: 20px; padding-top: 1%;
+}
+.RDBcenter {
+	height: 88%; padding-top: 1%; font-size: 19px;
+}
+	
+	
+	
+	
+	.LDTteamnameR {
+	 font-size: 18px; margin-right: 8%; margin-top: 5.5%; line-height: 18px;
+}
+	.LDTteamnameL {
+	 font-size: 18px; margin-left: 8%; margin-top: 5.5%; line-height: 18px;
+}
+
+.LDTnumberright {
+	 margin-top:6.5%; margin-right: 5%;  font-size: 23px; 
+}
+
+.LDTnumberleft {
+	margin-right: 3.5%;  margin-top:6.5%;  font-size: 23px; 
+}	
+	
+	.LDTCtimeset {
+		  font-size: 16px; 
+}
+		.LDTcenter {
+	 margin-right: 2%; 
+}
+		.timee {
+	margin-top: 12%
+}	
+}
+
+
+@media only screen and (max-width:550px) {
+
+ .bmaindiv{
+	
+	 height: 780px; 
+}
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+
+  .topdiv {
+	font-size: 13px;
+	
+}
+	
+	.bmaindiv{
+	
+	height: 750px;
+}
+	
+	.leftdiv {
+	height: 31%;
+	  float: left;
+	
+
+}
+.rightdiv {
+	height: 69%;
+
+}
+
+	
+	
+	.LDTteamnameR {
+	 font-size: 15px; margin-right: 8%; font-weight: bold;line-height: 16px; margin-top: 5%
+}
+	.LDTteamnameL {
+	 font-size: 15px; margin-left: 7%; font-weight: bold;line-height: 16px; margin-top: 5%
+}
+	.LDTCtimeset {
+		  font-size: 14px; 
+}
+	.LDTnumberright {
+	 font-size: 20px; 
+}
+
+.LDTnumberleft {
+	font-size: 20px; margin-right: 3%;
+}
+		.timee {
+	margin-top:5%
+}	
+}
+
+
+@media only screen and (max-width:400px) {
+
+  .topdiv {
+	font-size: 13px;
+	
+}
+	
+	.bmaindiv{
+	
+	height: 650px;
+}
+	
+	.LDTteamnameR {
+	 font-size: 12.5px; 
+}
+	.LDTteamnameL {
+	 font-size: 12.5px; 
+}
+	.LDTCtimeset {
+		  font-size: 12px; 
+}
+		.timee {
+	margin-top:0%
+}	
+}
+

@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+	
+.succerfield-attack-left {
+	width: 100%; height: 100%; z-index: -1;  margin-top: -11px; background-image:url(../pic/succerfield-gol-left.png); background-size: 100%; background-position:bottom; background-repeat: no-repeat; 
+	animation-name: example1;
+	
+	opacity: 0;
+animation: example1 8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+	
+}	
+
+.goal {
+	position: absolute; top: 380px; z-index: 1; width: 200px; left: 29%;
+	animation-name: goal1;
+	
+	opacity: 0;
+animation: goal1 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+
+}
+
+.arrow2 {
+	animation-name: arrow2;
+	width: 30%; margin-left: 11%; margin-top: 9%;
+	opacity: 0;
+animation: arrow2 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+		animation-delay: 3s;
+
+}
+
+
+
+
+
+@keyframes example1 {
+  0%   { opacity: 0;}
+  25%  {opacity: 1 }
+   75%   { opacity: 1;}
+  100%  {opacity: 1 }
+}	
+	
+@keyframes goal1 {
+  0%   { opacity: 0;}
+  15%  {opacity: 1 }
+   30%   { opacity: 0;}
+  45%  {opacity: 1 }
+	   60%   { opacity: 0;}
+  75%  {opacity: 1;transform: scale(100%); }
+	100%  {opacity: 0 ; transform: scale(300%); }
+}		
+
+@keyframes arrow2 {
+  0%   { opacity: 0;}
+  25%  {opacity: 1;  }
+   75%   { opacity: 1;}
+  100%  {opacity: 1 }
+}	
+
+
+
+
+
+
+
+
+
+.info-center-box {
+	width: 170px; height: 80px;  margin-left: 43.5%; margin-top: -22%; z-index: 2; position: relative; opacity: 0;
+	animation-name: info-center-box;
+	
+animation: info-center-box 5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+		animation-delay: 4s;
+}
+.info-center-box-top {width: 100%; height: 42%; border-top-left-radius: 5px; border-top-right-radius: 5px; padding-top: 5px; background: linear-gradient(0deg, rgba(222,223,224,1) 0%, rgba(91,98,102,1) 100%, rgba(0,212,255,1) 100%); color: aliceblue; font-weight: bold; font-size: 20px; }
+
+@keyframes info-center-box {
+  0%   {margin-top: -22%; opacity: 0}
+  5%  {margin-top: -20%; opacity: 1 }
+   95%   {margin-top: -20%; opacity: 1 }
+  100%  {margin-top: -22%; opacity: 0 }
+}	
+
+
+@media only screen and (max-width:1700px) {
+	
+	
+	.info-center-box {
+	margin-left: 43%;   
+}
+}
+
+
+@media only screen and (max-width:1600px) {
+	
+	
+	.info-center-box {
+	margin-left: 42.5%;   
+}
+}
+
+
+
+@media only screen and (max-width:1500px) {
+	
+	.goal {
+	top: 320px; z-index: 1; width: 200px; left: 28%;
+	}
+	.info-center-box {
+	margin-left: 41%;  
+}
+}
+
+
+@media only screen and (max-width:1300px) {
+	
+	.goal {
+	top: 250px; z-index: 1; width: 200px; left: 27%;
+	}
+	
+	.info-center-box {
+	margin-left: 39%;  
+}
+}
+
+
+
+@media only screen and (max-width:1150px) {
+	
+	.goal {
+	top: 220px; z-index: 1; width: 200px; left: 24%;
+	}
+	.info-center-box {
+	margin-left: 37%;  
+}
+}
+
+
+
+@media only screen and (max-width:1000px) {
+	
+	.goal {
+	top: 150px; z-index: 1; width: 150px; left: 23%;
+	}
+	.info-center-box {
+	margin-left: 35%;  
+}
+}
+
+
+@media only screen and (max-width:900px) {
+	
+	.goal {
+	top: 200px; 
+	
+}
+	.info-center-box {
+	margin-left: 33%;  
+}
+}
+
+
+@media only screen and (max-width:800px) {
+	
+	.goal {
+	top: 170px; 
+}
+	.info-center-box {
+	margin-left: 29%;  
+}
+}
+
+@media only screen and (max-width:600px) {
+	
+	.goal {
+	top: 220px; left: 36%;
+	}
+	.info-center-box {
+	margin-left: 33%;  
+}
+}
+
+@media only screen and (max-width:500px) {
+	
+	.goal {
+	top: 190px; left: 34%;
+}
+	.info-center-box {
+	margin-left: 29%;  
+}
+	}
+	
